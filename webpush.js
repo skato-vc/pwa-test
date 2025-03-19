@@ -3,7 +3,7 @@
  */
 self.addEventListener('load', async () => {
   if ('serviceWorker' in navigator) {
-      window.sw = await navigator.serviceWorker.register('/pwa-test/service-worker.js', {scope: '/'});
+      window.sw = await navigator.serviceWorker.register('/pwa-test/service-worker.js', {scope: '/pwa-test/'});
   }
 });
 
