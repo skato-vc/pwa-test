@@ -1,0 +1,15 @@
+{
+  "name": "ValueCommerce WPA Sample",
+  "short_name": "VC App Sample",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "assets/test.png",
+      "sizes": "114x114",
+      "type": "image/png"
+    }
+  ]
+}
